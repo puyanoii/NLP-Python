@@ -1,16 +1,8 @@
-# NLP_Tutorial: A 3-hour tutorial on NLP in Python
+# Text Analysis with Python 
 
-Training materials for Data and Text Analysis Summer School 
+In this workshop, we will cover text cleaning, visualisation, and preliminary analysis using Python. 
 
-<https://www.cdcs.ed.ac.uk/training/Data-Text-Analysis-Summer-School>
-
-7 Jun 2021, 09:15 – 11 Jun 2021, 18:30
-
-Pu Yan, Oxford Internet Institute, University of Oxford 
-
-Email: <pu.yan@oii.ox.ac.uk> or <thuyanpu@gmail.com>
-
-### Outline of the course
+## Topics
 
 0. Introduction
     
@@ -39,4 +31,41 @@ Email: <pu.yan@oii.ox.ac.uk> or <thuyanpu@gmail.com>
     2.3 TF-IDF: table and visualisation
     
 3. Beyond quantification? Toolkit for qualitative research:
+
+
+## Installation
+
+In this workshop, we are going to use the following packages, please run the following codes in your terminals before the course. 
+
+You will need to install ```pip``` in your local envrionment before the installation. 
+
+Here's a documentation on installing pip: <https://pip.pypa.io/en/stable/installing/>
+
+```
+pip install pandas
+pip install numpy
+pip install --user -U nltk
+pip install -U pip setuptools wheel
+pip install -U spacy
+pip install --upgrade gensim
+python -m spacy download en_core_web_sm
+pip install pillow
+pip install wordcloud
+```
+
+## Course Materials
+
+```slides.ipynb``` has both the codes and outputs from running the code cells mentioned in the lecture
+
+```slides.html``` is a jupyter-generated slides for you (for future references)
+
+```codes.ipynb``` has all the codes mentioned in the lecture but contains no outputs, please use this jupyter notebook file to run codes during the course.
+
+## Autorship
+
+This Block has been created and developped by Pu Yan, for Data and Text Analysis Summer School 
+
+Pu Yan, Oxford Internet Institute, University of Oxford 
+
+Email: <pu.yan@oii.ox.ac.uk> or <thuyanpu@gmail.com>
 
